@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(WolfBackground.jpg);
+    background-size: cover;
+}
+
+.Menu-Bar {
+    height: 11%;
+    width: 100%;
+    background-color: midnightblue;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Graduate" , sans-serif;
+    position: fixed;
+    top: 0;
+
+}
+
+.Logo {
+    width: 150px;
+    height: 150px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+h2 {
+    color: gold;
+    font-size: 30px;
+    transition: 0.6s;
+   
+}
+
+h2:hover {
+    color:yellow;
+    transform: scale(1.1);
+}
+
+
+.Menu-Bar ul {
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.Menu-Bar li :hover{
+    margin: 12px;
+    padding: 12px;
+    background: purple;
+    border-radius: 10px;
+    
+}
+
+a {
+    color: turquoise;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+.gallery-title h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9%;
+    color:whitesmoke;
+    background-color: midnightblue;
+    border: 3px solid goldenrod;
+    border-radius: 10px 10px 10px 10px;
+    font-family: "Graduate" , sans-serif;
+    
+}
+
+.Gallery {
+    width: 90%;
+    padding: 35px;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.Photo {
+    width: 300px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 0.7s;
+}
+
+.Photo img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.Photo:hover {
+    transform: scale(1.1);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.Gallery2 {
+    width: 90%;
+    padding: 20px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.Footer {
+    width: 100%;
+    height: 45px;
+    color: whitesmoke;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer h3 {
+    color: gold;
+    font-family: "Graduate" , sans-serif;
+    margin-right: 30px;
+}
+

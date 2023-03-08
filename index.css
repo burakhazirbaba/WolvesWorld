@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(MoonNightWolf.jpg);
+    background-color: whitesmoke;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.Menu-Bar {
+    height: 11%;
+    width: 100%;
+    background-color: midnightblue;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Graduate" , sans-serif;
+    position: fixed;
+    top: 0;
+
+}
+
+.Logo {
+    width: 150px;
+    height: 150px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+h2 {
+    color: gold;
+    font-size: 30px;
+    transition: 0.6s;
+   
+}
+
+h2:hover {
+    color:yellow;
+    transform: scale(1.1);
+}
+
+
+.Menu-Bar ul {
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.Menu-Bar li :hover{
+    margin: 12px;
+    padding: 12px;
+    background: purple;
+    border-radius: 10px;
+    
+}
+
+a {
+    color: turquoise;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+.Wolf-Types {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 49%;
+    color:whitesmoke;
+    background-color: midnightblue;
+    border: 3px solid goldenrod;
+    border-radius: 10px 10px 10px 10px;
+    font-family: "Graduate" , sans-serif;
+}
+
+.WolfBox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.GrayWolfBox {
+    width: 435px;
+    height: 520px;
+    background-color: midnightblue;
+    color: whitesmoke;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    border: 3px solid goldenrod;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+}
+
+.GrayWolfBox img {
+    width: 435px;
+    height: 300px;
+}
+
+.ArcticWolfBox {
+    width: 435px;
+    height: 520px;
+    background-color: midnightblue;
+    color: whitesmoke;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    border-radius: 10px 10px 10px 10px;
+    border: 3px solid goldenrod;
+    padding: 10px;
+}
+
+.ArcticWolfBox img {
+    width: 435px;
+    height: 300px;
+}
+
+.HuntingVideosTitle {
+    width: 100%;
+    height: 50px;
+    color:gold;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Graduate" , sans-serif;
+}
+
+  .VideoBox {
+    width: 100%;
+    height: 375px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+  }
+  
+  .top5-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    color:whitesmoke;
+    background-color: midnightblue;
+    border: 3px solid goldenrod;
+    border-radius: 10px 10px 10px 10px;
+    font-family: "Graduate" , sans-serif;
+ }
+
+  .top5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+  }
+
+  .dangeroustable {
+    font-family: "Graduate" , sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+    background-color: goldenrod;
+    color: midnightblue;
+  }
+  
+  .dangeroustable td, th {
+    border: 1px solid whitesmoke;
+    padding: 8px;
+  }
+  
+  .dangeroustable tr:nth-child {background-color: #f2f2f2;
+}
+  
+  .dangeroustable tr:hover {color: whitesmoke; background-color:midnightblue;
+}
+
+ 
+.followus a{
+  color: midnightblue;
+}
+
+.followus a:hover{
+  color:goldenrod;
+}
+
+.followus{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.btn{
+  width: 280px;
+  height: 60px;
+  border: 3px solid goldenrod;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  color: black;
+  cursor: pointer;
+  overflow: hidden;
+  font-size: 30px;
+  transition: all 0.1s ease;
+}
+
+.btn:before{
+  content: "FOLLOW US";
+  font-family: "Graduate" , sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 16px;
+  letter-spacing: 1px;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: midnightblue;
+  transition: all 0.5s ease;
+}
+
+.btn:hover{
+  background: #FFF
+}
+
+.btn:hover:before{
+  top: -50%;
+}
+
+.Footer h3 {
+    color: gold;
+    font-family: "Graduate" , sans-serif;
+    margin-right: 30px;
+}
+
+.Footer {
+    width: 100%;
+    height: 45px;
+    color: whitesmoke;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline-end: auto;
+}
+
+
+
+
